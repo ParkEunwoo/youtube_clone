@@ -123,3 +123,41 @@ aside ul h3 {
 .copyright {
     margin-top: 1.2em;
 }
+
+section {
+    margin: 20px 100px;
+    flex-grow:1;
+}
+
+.ads {
+    display: flex;
+}
+.ads .left {
+    height: 250px;
+    flex-grow: 3;
+    background: gray;
+}
+.ads .right {
+    margin-left: 5px;
+    height: 250px;
+    flex-grow: 2;
+    background: gray;
+}
+
+.popular {
+    margin: 20px 0;
+    border-bottom: solid 1px lightgray;
+}
+
+.popular ul {
+    display: flex;
+    padding: 1em 0;
+    flex-wrap: wrap;
+}
+
+.popular ul li {
+    height: 200px;
+    width: 220px;
+    background: blue;
+    margin-right: 5px;
+}

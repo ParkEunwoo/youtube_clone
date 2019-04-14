@@ -7,11 +7,46 @@ body {
 
 header {
     display: flex;
-    border-bottom: 1px solid black;
-    padding: .75em .6em;
+    align-items: center;
+    padding: .5em 1em;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 0 4px 0 lightgray;
+}
+
+header .logo {
+    margin-left: 1em; 
 }
 
 header .search{
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
 }
+header .search input {
+    border: none;
+    padding: .4em;
+    font-size: 1.02rem;
+}
+
+header .mymenu {
+    margin: 0 1em;
+}
+
+header .login {
+    border: 1px solid #065fd4;
+    border-radius: 2px;
+    padding: .4em .7em;
+    color: #065fd4;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+
+header .login img {
+    margin-right: .4em;
+}
+

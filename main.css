@@ -36,7 +36,7 @@ header .mymenu {
     margin: 0 1em;
 }
 
-header .login {
+.login {
     border: 1px solid #065fd4;
     border-radius: 2px;
     padding: .4em .7em;
@@ -44,6 +44,7 @@ header .login {
     display: flex;
     align-items: center;
     font-size: .9rem;
+    width: 75px;
 }
 
 header .login img {
@@ -60,13 +61,63 @@ aside {
     flex-direction: column;
     width: 240px;
     background: #f5f5f5;
+    font-size: .9em;
 }
 
 aside ul {
-    padding: .6em 0;
+    padding: .8em 0;
     border-bottom: 1px solid #dfdfdf;
 }
 
 aside ul li {
-    padding-left: 1.2em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+aside ul li img {
+    padding: .6em 1.4em;
+}
+aside ul h3 {
+    padding: .6em 1.4em;
+    color: #6c6660;
+}
+
+.home {
+    background: #dcdcdc;
+}
+.youtube {
+    font-weight: 600;
+}
+.round {
+    border-radius: 50%;
+}
+.induced {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.induced span {
+    line-height: 1.4em;
+}
+
+.induced .login {
+    margin-top: 1em;
+}
+.footer {
+    font-size: .9em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    color: gray;
+}
+.footer li {
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+.footer span {
+    padding: 0 .3em;
+    line-height: 120%;
+}
+.copyright {
+    margin-top: 1.2em;
 }
